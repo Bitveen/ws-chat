@@ -1,0 +1,38 @@
+{
+  "name": "ws-chat",
+  "version": "1.0.0",
+  "description": "Simple WebSocket chat",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bitveen/ws-chat.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node",
+    "WebSocket",
+    "Redis"
+  ],
+  "author": "Bitveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bitveen/ws-chat/issues"
+  },
+  "homepage": "https://github.com/Bitveen/ws-chat#readme",
+  "dependencies": {
+    "node-uuid": "^1.4.3",
+    "redis": "^2.2.5",
+    "ws": "^0.8.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
