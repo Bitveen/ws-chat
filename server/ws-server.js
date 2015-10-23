@@ -34,6 +34,7 @@ wsServer.on('connection', function(socket) {
         for (var i = 0; i < clients.length; i++) {
             if (this === clients[i].socket) {
                 clientLogin = clients[i].login;
+                break;
             }
         }
 
