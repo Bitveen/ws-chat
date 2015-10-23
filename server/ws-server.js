@@ -1,5 +1,4 @@
 var uuid = require('node-uuid');
-var redisClient = redis.createClient();
 var Server = new require('ws').Server;
 var wsServer = new Server({ port: 8181 });
 
