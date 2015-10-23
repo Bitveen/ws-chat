@@ -1,0 +1,23 @@
+@import "config";
+@import "mixins";
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+.container {
+    position: relative;
+    background-color: $main-bg-color;
+    padding-top: 15px;
+}
+
+@import "chat";
+@import "chat-form";
+@import "footer";
+@import "message";
+
+
+
+

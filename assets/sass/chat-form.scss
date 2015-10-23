@@ -1,0 +1,29 @@
+/* Форма с полем для отправки сообщений */
+.chatForm {
+    padding: 15px;
+    &__input {
+        color: $input-text-color;
+        position: relative;
+        font-size: 12px;
+        box-sizing: border-box;
+        width: 400px;
+        outline: none;
+        padding: 10px 5px;
+        border: 1px solid $input-border-color;
+    }
+    &__button {
+        margin-left: 10px;
+        position: relative;
+        border: none;
+        background-color: $send-message-button-color;
+        color: $send-message-button-text-color;
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 3px;
+        &:hover {
+            cursor: pointer;
+            background-color: lighten($send-message-button-color, 5%);
+        }
+    }
+
+}

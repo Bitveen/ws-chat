@@ -1,0 +1,25 @@
+/* Стили для сообщений */
+
+.message {
+    border-bottom: 1px solid $message-border-color;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    &__text {
+        margin: 0;
+    }
+    &__sender {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    &__body {
+        color: $message-text-color;
+    }
+    &__date {
+        position: relative;
+        top: 3px;
+        float: right;
+        font-size: 12px;
+        color: $message-date-text-color;
+    }
+
+}

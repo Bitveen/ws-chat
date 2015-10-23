@@ -1,0 +1,33 @@
+/* Блок чата */
+.chatContainer {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid $chat-border-color;
+    border-radius: 3px;
+    &__header {
+        height: 50px;
+        background-color: $chat-header-color;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    &__title {
+        margin: 0;
+        color: $chat-header-text-color;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    &__body {
+        padding: 15px;
+        max-height: 450px;
+        min-height: 450px;
+        overflow: scroll;
+    }
+
+    &__footer {
+        background-color: $chat-footer-color;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+}
